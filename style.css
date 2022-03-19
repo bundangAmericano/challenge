@@ -1,0 +1,12 @@
+input {
+  border: none;
+  border-bottom: solid 2px black;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  display:inline;
+}
