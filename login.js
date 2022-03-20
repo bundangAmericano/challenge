@@ -4,7 +4,7 @@ const inputName = document.querySelector('.login input');
 
 function paintName() {
   const yourName = localStorage.getItem('name');
-  login.textContent = `${(yourName) ? `Hello ${yourName}` : 'Please write your name'}`
+  login.textContent = `${(yourName) ? `Hello! ${yourName}` : 'Please write your name'}`
   if (yourName) {
     form.classList.add('hide');
   } else {
